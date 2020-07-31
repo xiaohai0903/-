@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/youthcenter/YouthCenter",
+    "pages/my/My",
+    "pages/index/PointsMall",
+    "pages/index/PointsDetails",
+    "pages/index/CenterNews",
+    "pages/order/Order",
+    "pages/payment/Payment",
+    "pages/adress/NewAdress",
+    "pages/adress/ShippingAddress",
+    "pages/index/CharitableActivities",
+    "pages/index/NewsDetails",
+    "pages/index/ProjectDetails",
+    "pages/index/SignUp",
+    "pages/search/Search",
+    "pages/index/HeartDetails",
+    "pages/index/HealthAppointment",
+    "pages/index/HealthSign",
+    "pages/course/Technology",
+    "pages/course/CourseDetails",
+    "pages/course/YounthCourse",
+    "pages/appleparadise/GreenAppleParadise",
+    "pages/appleparadise/AppleDetails",
+    "pages/questionnaire/Questionnaire",
+    "pages/registerinformation/RegisterInformation",
+    "pages/registerinformation/NewRegister",
+    "pages/registerinformation/PersonalInformation",
+    "pages/my/CustomerFeedback",
+    "pages/questionnaire/AllQuestion",
+    "pages/my/PointsDetails",
+    "pages/my/MyCourses"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "青少年",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/img/shouye2.png",
+        "selectedIconPath": "/static/img/shouye.png"
+      },
+      {
+        "pagePath": "pages/youthcenter/YouthCenter"
+      },
+      {
+        "pagePath": "pages/my/My",
+        "text": "我的",
+        "iconPath": "/static/img/wode2.png",
+        "selectedIconPath": "/static/img/wode.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "rwj-tabbar": "/components/rwj-tabbar",
+    "one": "/components/one"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "青苹果乐园",
+  "usingComponents": {
+    "search": "/components/search/SearchCm"
+  }
+}

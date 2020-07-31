@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "科技学科",
+  "usingComponents": {
+    "picker1": "/components/picker/picker"
+  }
+}

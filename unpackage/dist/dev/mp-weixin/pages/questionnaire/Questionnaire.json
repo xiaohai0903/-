@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "问卷调查",
+  "usingComponents": {
+    "single": "/components/answer/SingleChoice",
+    "multiple": "/components/answer/MultipleChoice",
+    "fill": "/components/answer/FillIn"
+  }
+}

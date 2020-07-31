@@ -1,0 +1,1 @@
+<view class="data-v-566c0664"><view class="{{['announcement data-v-566c0664',(announcement)?'sheetShow':'',(!announcement)?'sheeHide':'']}}"><slot></slot></view></view>

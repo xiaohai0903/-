@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "选择报名信息",
+  "usingComponents": {
+    "picker1": "/components/picker/picker"
+  }
+}

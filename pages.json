@@ -1,0 +1,216 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/youthcenter/YouthCenter",
+			"style": {
+				"navigationBarTitleText": "青少年中心"
+			}
+		},
+		{
+			"path": "pages/my/My",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path":"pages/index/PointsMall",
+			"style":{
+				"navigationBarTitleText":"积分商城"
+			}
+		},
+		{
+			"path":"pages/index/PointsDetails",
+			"style":{
+				"navigationBarTitleText":""
+			}
+		},
+		{
+			"path":"pages/index/CenterNews",
+			"style":{
+				"navigationBarTitleText":"新闻中心"
+			}
+		},
+		{
+			"path":"pages/order/Order",
+			"style":{
+				"navigationBarTitleText":"确定订单"
+			}
+		},
+		{
+			"path":"pages/payment/Payment",
+			"style":{
+				"navigationBarTitleText":"订单确定"
+			}
+		},
+		{
+			"path":"pages/adress/NewAdress",
+			"style":{
+				"navigationBarTitleText":"收货地址"
+			}
+		},
+		{
+			"path":"pages/adress/ShippingAddress",
+			"style":{
+				"navigationBarTitleText":"收货地址"
+			}
+		},
+		{
+			"path":"pages/index/CharitableActivities",
+			"style":{
+				"navigationBarTitleText":"公益活动"
+			}
+		},
+		{
+			"path":"pages/index/NewsDetails",
+			"style":{
+				"navigationBarTitleText":"新闻详情"
+			}
+		},
+		{
+			"path":"pages/index/ProjectDetails",
+			"style":{
+				"navigationBarTitleText":"项目详情"
+			}
+		},
+		{
+			"path":"pages/index/SignUp",
+			"style":{
+				"navigationBarTitleText":"预约报名"
+			}
+		},
+		{
+			"path":"pages/search/Search",
+			"style":{
+				"navigationBarTitleText":"搜索"
+			}
+		},
+		{
+			"path":"pages/index/HeartDetails",
+			"style":{
+				"navigationBarTitleText":"健康详情"
+			}
+		},
+		{
+			"path":"pages/index/HealthAppointment",
+			"style":{
+				"navigationBarTitleText":"健康预约"
+			}
+		},
+		{
+			"path":"pages/index/HealthSign",
+			"style":{
+				"navigationBarTitleText":"健康报名"
+			}
+		},
+		{
+			"path":"pages/course/Technology",
+			"style":{
+				"navigationBarTitleText":"科技学科"
+			}
+		},
+		{
+			"path":"pages/course/CourseDetails",
+			"style":{
+				"navigationBarTitleText":"学科详情"
+			}
+		},
+		{
+			"path":"pages/course/YounthCourse",
+			"style":{
+				"navigationBarTitleText":"青少年精品课程"
+			}
+		},
+		{
+			"path":"pages/appleparadise/GreenAppleParadise",
+			"style":{
+				"navigationBarTitleText":"青苹果乐园"
+			}
+		},
+		{
+			"path":"pages/appleparadise/AppleDetails",
+			"style":{
+				"navigationBarTitleText":"乐园项目详情"
+			}
+		},
+		{
+			"path":"pages/questionnaire/Questionnaire",
+			"style":{
+				"navigationBarTitleText":"问卷调查"
+			}
+		},
+		{
+			"path":"pages/registerinformation/RegisterInformation",
+			"style":{
+				"navigationBarTitleText":"选择报名信息"
+			}
+		},
+		{
+			"path":"pages/registerinformation/NewRegister",
+			"style":{
+				"navigationBarTitleText":"选择报名信息"
+			}
+		},
+		{
+			"path":"pages/registerinformation/PersonalInformation",
+			"style":{
+				"navigationBarTitleText":"选择报名信息"
+			}
+		},
+		{
+			"path":"pages/my/CustomerFeedback",
+			"style":{
+				"navigationBarTitleText":"用户反馈"
+			}
+		},
+		{
+			"path":"pages/questionnaire/AllQuestion",
+			"style":{
+				"navigationBarTitleText":"问卷调查"
+			}
+		},
+		{
+			"path":"pages/my/PointsDetails",
+			"style":{
+				"navigationBarTitleText":"积分明细"
+			}
+		},
+		{
+			"path":"pages/my/MyCourses",
+			"style":{
+				"navigationBarTitleText":"我的课程"
+			}
+		}
+	],
+	"tabBar": {
+	  "list": [
+	    {
+	      "pagePath": "pages/index/index",
+	      "text": "首页",
+	      "iconPath": "/static/img/shouye2.png",
+	      "selectedIconPath": "/static/img/shouye.png"
+	    },
+			{
+				"pagePath":"pages/youthcenter/YouthCenter"
+			},
+	    {
+	      "pagePath": "pages/my/My",
+	      "text": "我的",
+	      "iconPath": "/static/img/wode2.png",
+	      "selectedIconPath": "/static/img/wode.png"
+	    }
+	  ]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "青少年",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	}
+}
